@@ -1,3 +1,19 @@
+// Problem: Books Exchange
+
+// Find number of days required for each kid to receive their own book again.
+
+// Approach:
+// Treat permutation as cycles and find length of cycle for each index.
+
+// Explanation:
+// Each kid gets their book back after completing one full cycle in the permutation.
+
+// Example:
+// Input:  3 -> 2 3 1
+// Output: 3 3 3
+
+// Time Complexity: O(n)
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
