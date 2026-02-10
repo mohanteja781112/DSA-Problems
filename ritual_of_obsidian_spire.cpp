@@ -5,7 +5,7 @@
 // Approach:
 // Extract digits, square them, sum them, check even or odd.
 
-// Time Complexity: O(d)  // d = number of digits
+// Time Complexity: O(d) // d = number of digits
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
