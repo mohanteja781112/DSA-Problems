@@ -43,6 +43,6 @@ public:
     }
     
     int getMin() {
-        return minst.top().second;
+        return st.top().second;
     }
 };
